@@ -58,7 +58,8 @@ Rails.application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Set host to be used by links generated in mailer templates.
-  config.action_mailer.default_url_options = { host: "example.com" }
+  # Remplace 'votre-app.onrender.com' par l'URL de ton site Render
+  config.action_mailer.default_url_options = { host: "votre-app.onrender.com" }
 
   # Specify outgoing SMTP server. Remember to add smtp/* credentials via rails credentials:edit.
   # config.action_mailer.smtp_settings = {
