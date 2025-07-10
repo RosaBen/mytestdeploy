@@ -1,0 +1,18 @@
+# Omakase Ruby styling for Rails
+inherit_gem: { rubocop-rails-omakase: rubocop.yml }
+
+# Configuration pour ignorer complètement les fichiers ERB et autres vues
+AllCops:
+  Exclude:
+    - 'app/views/**/*'
+    - '**/*.erb'
+    - '**/*.html.erb'
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+# Overwrite or add rules to create your own house style
+#
+# # Use `[a, [b, c]]` not `[ a, [ b, c ] ]`
+# Layout/SpaceInsideArrayLiteralBrackets:
+#   Enabled: false

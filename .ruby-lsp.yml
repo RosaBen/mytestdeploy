@@ -1,0 +1,12 @@
+# Configuration Ruby LSP
+exclude_patterns:
+  - "app/views/**/*.erb"
+  - "app/views/**/*.html.erb"
+  - "**/*.erb"
+
+# Désactiver RuboCop pour les fichiers ERB
+rubocop:
+  use_bundler: true
+  exclude_patterns:
+    - "app/views/**/*"
+    - "**/*.erb"

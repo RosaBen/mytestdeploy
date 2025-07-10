@@ -1,0 +1,20 @@
+{
+  "files.associations": {
+    "*.html.erb": "erb",
+    "*.erb": "erb"
+  },
+  "ruby.lint": {
+    "ruby": false,
+    "rubocop": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "rubocop",
+  "ruby.useLanguageServer": true,
+  "[erb]": {
+    "editor.defaultFormatter": "vortizhe.simple-ruby-erb"
+  },
+  "emmet.includeLanguages": {
+    "erb": "html"
+  }
+}
